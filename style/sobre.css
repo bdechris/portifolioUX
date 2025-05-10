@@ -1,0 +1,57 @@
+/* Seção SOBRE */
+.sobre {
+  display: flex;
+  justify-content: space-evenly;
+  color: #fff;
+}
+
+.conteudo h1 {
+  font-size: 36px;
+ 
+}
+
+.conteudo p {
+  font-size: 23px;
+ 
+}
+
+
+
+/*FACEBOOK*/
+.facebook-link {
+    color: #1877f2;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.facebook-link:hover {
+    color: #145dbf;
+}
+
+.facebook-link i {
+    margin-right: 8px;
+    font-size: 24px;
+}
+
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .sobre {
+    flex-direction: column;
+    text-align: center;
+    padding: 30px 15px;
+  }
+
+  .conteudo h1 {
+    font-size: 28px;
+  }
+
+  .conteudo p {
+    font-size: 18px;
+  }
+
+  .facebook-link i {
+    font-size: 20px;
+  }
+}

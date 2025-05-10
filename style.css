@@ -1,0 +1,28 @@
+body {
+    height: 100%;
+    margin: 0;
+    background-color: #11071F;
+    color: white;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+/* Responsividade para tablets e celulares */
+@media (max-width: 1024px) {
+    body {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 16px;
+    }
+}

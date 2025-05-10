@@ -1,0 +1,26 @@
+.linguagens {
+  justify-content: center; /* Centraliza horizontalmente */
+
+}
+
+.titulo__linguagem {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 40px;
+}
+
+.paragrafo__linguagem{
+    text-align: center;
+    font-size: 25px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .titulo__linguagem {
+    font-size: 28px;
+  }
+
+  .paragrafo__linguagem {
+    font-size: 18px;
+  }
+}

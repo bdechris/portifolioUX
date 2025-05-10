@@ -1,0 +1,97 @@
+
+
+/*GRID CONTAINER*/
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(227px, 1fr));
+  gap: 30px;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.grid-item {
+  background: linear-gradient(135deg, #130428, #251043, #38126D, #261045, #190634);
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.grid-item:hover {
+  transform: translateY(-5px);
+}
+
+.grid-item img {
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.grid-item h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.grid-item p {
+  font-size: 14px;
+  color: #ccc;
+  margin-bottom: 15px;
+}
+
+.btn {
+  background-color: #2C1250;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #693B93;
+}
+
+
+/*LINGUAGENS ICON*/
+.icones {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.icones img {
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 50%;
+  padding: 10px;
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.icones img:hover {
+  transform: scale(1.1);
+}
+
+/* RESPONSIVIDADE EXTRA */
+@media (max-width: 480px) {
+  .grid-item {
+    padding: 20px;
+  }
+
+  .grid-item h2 {
+    font-size: 18px;
+  }
+
+  .grid-item p {
+    font-size: 13px;
+  }
+
+  .btn {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+}
